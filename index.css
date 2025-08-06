@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 .profile-main {
@@ -13,6 +14,11 @@
     height: 100vh;
 }
 
+.title{
+    color: rgb(207, 205, 205);
+    font-size: 3rem;
+}
+
 .profiles {
     display: flex;
     flex-wrap: wrap;
@@ -20,8 +26,14 @@
 }
 
 .profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     width: 11rem;
     text-align: center;
+    color: rgb(168, 166, 166);
+    gap: 10px;
 }
 
 img{
