@@ -30,15 +30,30 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    width: 11rem;
     text-align: center;
     color: rgb(168, 166, 166);
+    border-radius: 4px;
+    width: 11rem;
     gap: 10px;
+}
+
+.btn-profile{
+    background: none;
+    border: none;
+    padding: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-profile:hover {
+    border: 2px solid rgb(214, 212, 212);
+  
 }
 
 img{
     width: 11rem;
     height: 11rem;
+    border-radius: 4px;
 }
 
 .btn-config-profile {
@@ -47,5 +62,5 @@ img{
     font-size: 15px;
     background: none;
     color: rgba(164, 154, 154, 0.824);
-
+    cursor: pointer;
 }
