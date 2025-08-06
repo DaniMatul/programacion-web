@@ -1,2 +1,3 @@
-# programacion-web
-En este repositorio se presentaran las tareas del curso de programación web, cada tarea representada por una rama.
+Daniela Matul
+# Tarea-02
+Representación de la pagina de selector de usuarios de Netflix
