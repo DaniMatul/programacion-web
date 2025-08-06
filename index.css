@@ -9,4 +9,22 @@
     justify-content: center;
     flex-direction: column;
     background-color: rgba(0, 0, 0, 0.929);
+    gap:4rem;
+    height: 100vh;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.profile {
+    width: 11rem;
+    text-align: center;
+}
+
+img{
+    width: 11rem;
+    height: 11rem;
 }
