@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.profile-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}
+
+.title{
+    color: rgb(244, 241, 241);
+    font-size: 3rem;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem 0 4rem 0;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: rgb(168, 166, 166);
+    border-radius: 4px;
+    width: 11rem;
+    height: 11rem;
+    gap: 10px;
+}
+
+.btn-profile{
+    background: none;
+    border: none;
+    padding: 0;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-profile:hover {
+    border: 2px solid rgb(214, 212, 212);
+  
+}
+
+img{
+    width: 11rem;
+    height: 11rem;
+    border-radius: 2.5px;
+}
+
+.btn-config-profile {
+    border: 1px solid rgba(164, 154, 154, 0.824);
+    padding: 8px 30px 8px 30px;
+    font-size: 15px;
+    background: none;
+    color: rgba(164, 154, 154, 0.824);
+    cursor: pointer;
+}
