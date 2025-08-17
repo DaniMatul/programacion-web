@@ -1,0 +1,32 @@
+.main-container-pokemon-card{
+    display: flex;
+    width: 270px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(227, 224, 224);
+    border-radius: 8px;
+    margin:10px;
+}
+
+.info-pokemon-card{
+    display: flex;
+    flex-direction: column;
+    width: 255px;
+    height: 330px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(196, 199, 199);
+    box-shadow:2px 2px 5px rgba(0,0,0,0.3); 
+    border-radius: 8px;
+}
+
+.characteristics{
+    display: flex;
+    gap: 130px;
+    background-color: rgb(216, 221, 221);
+}
+
+img {
+    width: 130px;
+}
