@@ -4,7 +4,7 @@
     height: 350px;
     align-items: center;
     justify-content: center;
-    background-color: rgb(227, 224, 224);
+    background: linear-gradient(150deg, #f5f5f5, #a9a9a9, #f5f5f5);
     border-radius: 8px;
     margin:10px;
 }
@@ -24,7 +24,7 @@
 .characteristics{
     display: flex;
     gap: 130px;
-    background-color: rgb(216, 221, 221);
+    background-color: rgb(196, 199, 199);
 }
 
 img {
