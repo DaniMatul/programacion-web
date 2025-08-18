@@ -4,6 +4,7 @@ on:
   push:
     branches: [ "assessment-1" ]
 
+# se corrigio el error
 jobs:
   deploy:
     runs-on: ubuntu-latest
