@@ -2,7 +2,7 @@ name: Deploy to S3 + CloudFront assessment
 
 on:
   push:
-    branches: [ "assessment-01" ]
+    branches: [ "assessment-1" ]
 
 jobs:
   deploy:
