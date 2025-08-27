@@ -1,20 +1,21 @@
-import { useState } from 'react'
 import CreateTaskCard from './CreateTaskCard';
+import '../styles/HeaderApp.css'
 
-export default function HeaderApp(){
-    const [openModalTask, setOpenModalTask] = useState(false);
+export default function HeaderApp({ filter, onChangeFilter, onOpenForm }){
     return(
         <>
         <div className="header-app">
-            <p className="title"></p>
-            <button className="add-task-btn" onClick={() => setOpenModalTask(true)}>Agregar tarea</button>
-            {openModalTask && (
-            <div className="create-taskcard-modal">
-                <button className="cerrar" onClick={() => setOpenModalTask(false)}>x</button>
-                <CreateTaskCard/>
+            <div className="title">
+                <h1 className="title">Tareas</h1> 
             </div>
-            )}
-            <button className="filter"> Filtrar Por</button>
+            <div className="actions-header">
+                 <select value={filter} onChange={(e) => onChangeFilter(e.target.value)}>
+          <option value="all">Todas las tareas</option>
+          <option value="pending">Pendientes</option>
+          <option value="completed">Completadas</option>
+        </select>
+        <button onClick={onOpenForm}>Agregar tarea</button>
+            </div>
         </div>
         </>
     )

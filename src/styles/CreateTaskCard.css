@@ -1,0 +1,32 @@
+.main-container-form {
+  background: #fff;
+  padding: 12px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.data {
+  padding: 8px 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.accion {
+  padding: 8px 12px;
+  border: 0;
+  border-radius: 6px;
+  background: #1f6feb;
+  color: #fff;
+  cursor: pointer;
+}
+
+.accion.secundario {
+  background: #e5e7eb;
+  color: #111;
+}
