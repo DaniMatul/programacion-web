@@ -1,13 +1,19 @@
-import { useState } from 'react'
 import './App.css'
+import TaskCard from './components/TaskCard'
+import HeaderApp from './components/HeaderApp';
+import BodyApp from './components/BodyApp';
 
-function App() {
+export default function App() {
 
   return (
     <>
-
+    <div className="main-container-principal">
+      <HeaderApp/>
+      <BodyApp/>
+    </div>
     </>
   )
 }
 
-export default App
+
+
