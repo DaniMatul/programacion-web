@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 
-export default function Card(){
+export default function HideCard(){
     const [inputValue, setInputValue] = useState('')
     const [hideValue, setHideValue] = useState(false)
     return (
