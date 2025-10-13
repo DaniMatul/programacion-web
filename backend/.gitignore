@@ -1,0 +1,54 @@
+.venv_assesment3/
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+*.pyc
+*.egg-info/
+.env
+.env.local
+venv/
+.venv/
+env/
+ENV/
+
+# === FastAPI / Backend ===
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.mypy_cache/
+
+# === Node / Next.js ===
+node_modules/
+.next/
+dist/
+out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# === Docker ===
+*.pid
+*.sock
+docker-compose.override.yml
+docker-data/
+tmp/
+
+# === VSCode / IDEs ===
+.vscode/
+.idea/
+.DS_Store
+
+# === Redis ===
+dump.rdb
+*.rdb
+*.aof
+
+# === Others ===
+__MACOSX
+*.swp
