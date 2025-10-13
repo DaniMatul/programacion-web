@@ -8,7 +8,7 @@ import redis
 import uuid
 
 
-r = redis.Redis(host="localhost", port=6379, db=0, decode_responses=True)
+r = redis.Redis(host="redis", port=6379, db=0, decode_responses=True)
 
 @csrf_exempt
 def hide_secret(request):
