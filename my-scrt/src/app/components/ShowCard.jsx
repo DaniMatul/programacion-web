@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from "react"
+import '../styles/card.css'
 
 export default function ShowCard(){
     const [inputValue, setInputValue] = useState('')
